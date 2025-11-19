@@ -1,0 +1,25 @@
+# First coding exercise: Printing practice
+print('Welcome to the Band Name Generator')
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's your pet's name?\n")
+print( "Your band name could be: " + city + " " + pet)
+
+# Second coding exercise: Debugging Practice
+print("Notes from Day 1")
+print("The print statement is used to output strings")
+print("Strings are strings of characters")
+print("String Concatenation is done with the + sign")
+print("New lines can be created with a \ and the letter n")
+
+# Thrid coding exercise: Variables
+glass1 = "milk"
+glass2 = "juice"
+temp = glass1
+glass1 = glass2
+glass2 = temp
+
+# Band name generator
+print('Welcome to the Band Name Generator')
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's your pet's name?\n")
+print( "Your band name could be: " + city + " " + pet)
