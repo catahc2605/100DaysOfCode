@@ -1,0 +1,103 @@
+# Suscribing
+print("Hello"[0])
+
+# String
+print("123" + "345")
+
+#Integer = Whole number
+print(123+345)
+
+# Large integers
+print(123_456_789)
+
+# Float = Floating Point Number
+print(3.14159)
+
+# Boolean
+print(True)
+print(False)
+
+#Quiz: 1. "False" is a Boolean | 2. Float | 3. yo
+len("Hello")
+
+print(type(3.14159))
+print(type("3.14159"))
+print(type(314159))
+print(type(True))
+
+# Type conversion
+
+print(int("123") + int("456"))
+int()
+float()
+str()
+bool()
+
+# Types Errors
+## Type Error: No the correct  type
+## Value Error: Trying to set a not number as a number
+
+print("Number of letters in your name: " + str(len(input("Enter your name"))))
+
+print("My age: " + str(12))
+
+print(123 + 456)
+print(7 - 3)
+print(3 * 2)
+print(6 / 3) #float
+print(6 // 3) #int
+print(2 ** 2) # Exponent
+
+# Order PEMDAS
+# Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+# Left to right
+
+print(3 * 3 + 3 / 3 - 3) # Result= 7.0
+print(3 * (3 + 3) / 3 - 3) # Result= 3.0
+
+# Test bmi
+
+height = 1.65
+weight = 84
+
+bmi = 84 / 1.65 ** 2
+print(bmi)
+
+print(int(bmi))
+
+print(round(bmi))
+
+print(round(bmi,2))
+
+# Assignment Operators
+# Assignment operators such as the addition assignment operator += will add the number on the right to the original value of the variable on the left and assign the new value to the variable.
+# +=
+# -=
+# *=
+# /=
+
+score = 0
+score += 1 # User scores a point
+score += 1
+print(score)
+
+# f-Strings
+# In Python, we can use f-strings to insert a variable or an expression into a string.
+
+print(f"The score is {score} in this moment")
+
+# Quiz. 1. 6.0 | 2. float | 3. print("You are " + age + " years old")
+# Write your code here.
+# Calculate the bmi using weight and height.
+bmi = weight/height ** 2
+
+print(bmi)
+
+# Tip calculator 
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10 12 15 "))
+people = int(input("How many people to split the bill? "))
+total_tip = round((bill/people)*((tip/100)+1),2)
+print(f"Each person should pay: ${total_tip}")
